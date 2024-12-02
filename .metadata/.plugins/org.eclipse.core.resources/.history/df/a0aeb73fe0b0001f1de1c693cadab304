@@ -14,9 +14,9 @@ public class Main {
 		ret.largura = scan.nextDouble();
 		ret.altura = scan.nextDouble();
 		
-		System.out.printf("ÁREA = %.2f \n", ret.Area());
-		System.out.printf("PERIMETRO = %.2f \n", ret.Perimetro());
-		System.out.printf("DIAGONAL = %.2f \n", ret.Diagonal());
+		System.out.printf("ÁREA = %.2f", ret.Area());
+		System.out.printf("PERIMETRO = %.2f", ret.Perimetro());
+		System.out.printf("DIAGONAL = %.2f", ret.Diagonal());
 	}
 
 }

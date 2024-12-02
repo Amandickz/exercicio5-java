@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+import classes.Retangulo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		Retangulo ret = new Retangulo();
+		
+		double largura, altura;
+		
+		System.out.println("Digite a largura e altura do retângulo: ");
+		largura = scan.nextDouble();
+		altura = scan.nextDouble();
+
+	}
+
+}
